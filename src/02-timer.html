@@ -5,6 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Countdown timer</title>
     <link rel="stylesheet" href="css/common.css" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@500&display=swap');
+      span {
+        margin: 0;
+        padding: 0;
+        height: 0;
+      }
+
+      .timer {
+        display: flex;
+      }
+      .field {
+        margin-top: 20px;
+        width: 120px;
+        display: grid;
+        justify-content: center;
+        justify-items: center;
+
+        font-family: 'Noto Nastaliq Urdu', serif;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 1.6;
+        cursor: default;
+      }
+      .value {
+        font-family: 'Noto Nastaliq Urdu', serif;
+        font-weight: 400;
+        font-size: 50px;
+      }
+      .field:not(:last-child) {
+        margin-right: 10px;
+      }
+    </style>
   </head>
   <body>
     <p><a href="index.html">Go back</a></p>
