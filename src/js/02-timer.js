@@ -25,7 +25,7 @@ const options = {
       if (selectedDates[0] < new Date()) {
           Notiflix.Notify.failure('Please choose a date in the future');
       } else {
-          Notiflix.Notify.success('Thank you for not being dumb');
+          Notiflix.Notify.success('Finally, a good user');
         refs.btnStart.disabled = false;
         refs.btnStop.disabled = false;
       }
